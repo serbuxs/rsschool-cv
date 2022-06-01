@@ -1,6 +1,6 @@
 <a id="up"></a>
 
-## __[rsschool-cv](https://github.com/serbuxs/rsschool-cv)__
+## __[rsschool-cv](https://github.com/serbuxs/rsschool-cv/blob/gh-pages/cv.md)__
 ___
 ![Siarhei_Bukhavets](/bukh.png)
 # Siarhei Bukhavets
