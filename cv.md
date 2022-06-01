@@ -1,17 +1,15 @@
 <a id="up"></a>
 
 ## __[rsschool-cv](https://github.com/serbuxs/rsschool-cv/blob/gh-pages/cv.md)__
-___
 ![Siarhei_Bukhavets](/bukh.png)
 # Siarhei Bukhavets
-___
 ### Junior Frontend Developer
 ___
 ### Contact
-__Phone__: +375 29 2937443
-__Email__: sbukhovets@gmail.com
-__Discord__: @serbuxs
-[Linkedin](https://www.linkedin.com/in/sbukhavets/)
+##### __Phone__: +375 29 2937443
+##### __Email__: sbukhovets@gmail.com
+##### Discord: @serbuxs
+##### [Linkedin](https://www.linkedin.com/in/sbukhavets/)
 
 ### About Me
 I work as a QA engineer and I want to develop into the field of development. This is at least useful to me for learning in test automation. But maybe I will move into the interesting world of the frontend development.
