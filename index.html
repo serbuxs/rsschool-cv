@@ -14,26 +14,75 @@
 <body>
     <header>
         <div class="container">
-            <h1>Siarhei Bukhavets</h1>
-            <img src="assets/bukh.png" alt="my_photo">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
         </div>
     </header>
     <main>
-        <div class="container">
-            <h2>Junior Frontend Developer</h2>
-            <h2>About Me</h2>
-            <h2 id="skills">Skills</h2>
-            <h2 id="code">Code Example</h2>
-            <h2 id="courses">Courses</h2>
-            <h2 id="languages">Languages</h2>
+        <div class="main-container">
+            <section class="section-profile" id="profile">
+                <h1>
+                    <img src="assets/bukh.png" alt="my_photo"><br>
+                    <p>Siarhei Bukhavets</p>
+                    <p>Junior Frontend Developer</p>
+                    <hr>
+                </h1>
+            </section> 
+            <section class="section-summary" id="summary">
+                <h2>Summary</h2>
+                    <p>I work as a QA engineer and I want to develop into the field of development.<br>
+                        This is at least useful to me for learning in test automation.<br>
+                        But maybe I will move into the interesting world of the frontend development.</p>
+                        <hr>
+            </section>
+            <section class="section-skills" id="skills">
+                <h2 id="skills">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML/CSS</li>
+                        <li class="skills-item">Git</li>
+                        <li class="skills-item">SQL</li>
+                        <li class="skills-item">Linux</li>
+                    </ul>
+            </section>
+            <section class="section-code" id="code">
+                <h2 id="code">Code Example</h2>
+                <pre class="code-example">
+                    // Write a function "greet" that returns "hello world!"
+                    function greet() {
+                        return ("hello world!");
+                    }
+                </pre>
+            </section>
+            <section class="section-courses" id="courses">
+                <h2 id="courses">Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q2">Schools Course «JavaScript/Front-end. Stage 0</a> (in progress)</li>
+                    <li class="courses-item"><a href="https://www.codecademy.com/learn/learn-html">HTML Codecademy</a></li>
+                    <li class="courses-item"><a href="https://www.codecademy.com/learn/learn-css">CSS Codecademy</a></li>
+                    <li class="courses-item"><a href="https://www.codecademy.com/learn/learn-sql">SQL Codecademy</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="projects">Projects</h2>
+            </section>
+            <section class="section-education" id="education">
+                <h2 id="education">Education</h2>
+            </section>
+            <section class="section-languages" id="languages">
+                <h2 id="languages">Languages</h2>
+                <p>
+                    English - Pre-Intermediate
+                </p>
+            </section>
         </div>
     </main>       
     <footer>
