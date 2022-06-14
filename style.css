@@ -1,10 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
-    border: 2px solid green;
+    border: 1px solid #BC8F8F;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    border: 2px solid red;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #F5FFFA;
+    border: 1px solid #800000;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -31,6 +39,20 @@ body {
     transition: .3s;
 }
 
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+}
+
 .section-item a{
     color: #829985;
     text-decoration: none;
@@ -38,21 +60,23 @@ body {
 }
 
 .section-item a:hover {
-    color: #4d2323;
+    color: #800000;
 }
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+    padding: 10px;
+    color: #4d2323;
 }
 
 .section {
     width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860) {
     .section {
-        width: 100%;
+        flex-direction: column;
     }    
 }
 
@@ -60,19 +84,34 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    box-sizing: border-box;
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.link {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/rss.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
+    color: #60233a;
 }
 
 h2 {
-    text-align: justify;
+    color: #28503f;
 }
 
 footer {
-    border: 2px solid blue;
+    border: 1px solid #BC8F8F;
 }
