@@ -1,9 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Bukhavets CV</title>
-    </head>
-    <body>
-        <h1>Siarhei Bukhavets</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,400&display=swap" rel="stylesheet"> 
+    <title>cv</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section-title" id="profile">
+                <img class="avatar" src="assets/bukh.png" alt="avatar" height="200" width="160">
+                <div>
+                    <h1>Siarhei Bukhavets</h1>
+                <h2>Junior Frontend Developer</h2>
+                </div>                
+                    <hr>                
+            </section> 
+            <section class="section-title" id="summary">
+                <h2>Summary</h2>
+                <h3>I work as a QA engineer and I want to develop into the field of development. This is at least useful to me for learning in test automation. But maybe I will move into the interesting world of the frontend development.</h3>
+                    <hr>
+            </section>
+            <section class="section-title" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item"><a href="mailto:sbukhovets@gmail.com">Email</a></li>
+                    <li class="section-item"><a href="https://github.com/serbuxs/">GitHub</a></li>
+                    <li class="section-item"><a href="https://www.linkedin.com/in/sbukhavets/">Linkedin</a></li>
+                </ul>        
+            </section>
+            <section class="section-title" id="skills">
+                <h2>Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML/CSS</li>
+                    <li class="section-item">Git</li>
+                    <li class="section-item">SQL</li>
+                    <li class="section-item">Linux</li>
+                </ul>
+            </section>
+            <section class="section-title" id="code">
+                <h2>Code Example</h2>
+    <pre>
+    function greet() {
+        return ("hello world!");
+    }
+    </pre>
+            </section>
+            <section class="section-title" id="courses">
+                <h2>Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q2">JS RS Schools</a></li>
+                    <li class="section-item"><a href="https://www.codecademy.com/learn/learn-html">HTML Codecademy</a></li>
+                    <li class="section-item"><a href="https://www.codecademy.com/learn/learn-css">CSS Codecademy</a></li>
+                    <li class="section-item"><a href="https://www.codecademy.com/learn/learn-sql">SQL Codecademy</a></li>
+                </ul>
+            </section>
+            <section class="section-title" id="projects">
+                <h2>Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item"><a href="https://serbuxs.github.io/rsschool-cv/cv">MarkDown&Git RSS</a></li>
+                </ul>
+            </section>
+            <section class="section-title" id="education">
+                <h2>Education</h2>
+                <p>Belarusian State Pedagogical University named after Maxim Tank</p>
+            </section>
+            <section class="section-title" id="languages">
+                <h2>Languages</h2>
+                <p>English - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>       
+    <footer class="footer">
+        <div class="footer-container">            
+            <div>2022</div>
+            <a href="https://github.com/serbuxs/" class="github">Serbuxs</a>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>     
+    </footer>
+</body>
 </html>
