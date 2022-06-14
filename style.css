@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #F5FFFA;
+    border: 1px solid #800000;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #60233a;
+}
+
+h2 {
+    color: #28503f;
+}
+
+p {
+    text-transform: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header {
+    border: 1px solid #BC8F8F;
+}
+
+.nav-list {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.link {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.main-container {
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column;
+    flex: 200px;
+    color: #4d2323;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+    color: #4d2323;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+}
+
+.section-item a{
+    color: #4d2323;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #829985;;
+}
+
+.footer-container {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    margin: 5px auto 5px 5%;
+    align-items: center;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.github {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px auto 5px 10%;
+}
+
+.footer {
+    border: 1px solid #BC8F8F;
+    list-style: none;
+}
+
+.avatar {
+    padding: 10px 0 0 10px;
+}
+
+.rss {
+    display: flex;
+    align-items: flex-end;
+    margin: 5px 5% 5px auto;
+    width: 121px;
+    height:50px;
+    background-image: url("./assets/rss.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: 860) {
+    .section {
+        flex-direction: column;
+    }    
+}
