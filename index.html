@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="header-container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
@@ -31,16 +31,17 @@
     <main class="main">
         <div class="main-container">
             <section class="section-title" id="profile">
-                <img src="assets/bukh.png" alt="my_photo" height="240" width="180" >
+                <img class="avatar" src="assets/bukh.png" alt="avatar" height="200" width="160">
                 <div>
                     <h1>Siarhei Bukhavets</h1>
-                <h3>Junior Frontend Developer</h3>
+                <h2>Junior Frontend Developer</h2>
                 </div>                
                     <hr>                
             </section> 
             <section class="section-title" id="summary">
                 <h2>Summary</h2>
-                <p>I work as a QA engineer and I want to develop into the field of development. This is at least useful to me for learning in test automation. But maybe I will move into the interesting world of the frontend development.</p>
+                <h3><p>I work as a QA engineer and I want to develop into the field of development. This is at least useful to me for learning in test automation. But maybe I will move into the interesting world of the frontend development.</p>
+                    </h3>
                     <hr>
             </section>
             <section class="section-title" id="contacts">
@@ -62,18 +63,16 @@
             </section>
             <section class="section-title" id="code">
                 <h2>Code Example</h2>
-    <pre class="pre">
-        <code>
+    <pre>
     function greet() {
         return ("hello world!");
     }
-        </code>
     </pre>
             </section>
             <section class="section-title" id="courses">
                 <h2>Courses</h2>
                 <ul class="section-list">
-                    <li class="section-item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q2">Schools Course «JavaScript/Front-end. Stage 0</a> (in progress)</li>
+                    <li class="section-item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q2">JS RS Schools</a></li>
                     <li class="section-item"><a href="https://www.codecademy.com/learn/learn-html">HTML Codecademy</a></li>
                     <li class="section-item"><a href="https://www.codecademy.com/learn/learn-css">CSS Codecademy</a></li>
                     <li class="section-item"><a href="https://www.codecademy.com/learn/learn-sql">SQL Codecademy</a></li>
@@ -96,10 +95,11 @@
         </div>
     </main>       
     <footer class="footer">
-        <div class="container">
-            <div> 2022 <a href="https://github.com/serbuxs/">Serbuxs</a></div>
+        <div class="footer-container">            
+            <div>2022</div>
+            <a href="https://github.com/serbuxs/" class="github">Serbuxs</a>
             <a href="https://rs.school/js/" class="rss"></a>
-        </div>
+        </div>     
     </footer>
 </body>
 </html>
